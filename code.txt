@@ -31,7 +31,7 @@ When DoC SOC level of battery type selected has been reached
 Notes:
 Input voltage to the arduino is 230v AC at 50Hz (coming from the mains electrical grid).
 The 12v battery can be used to power a wide range of domestic equipment.
-An in-home energy use display can be placed between the battery and the appliances to measure the wattage draw and allow the user to change his habits (equipment used at a certain period). This is useful as any battery can only supply a given amount of amps.
+An in-home energy use display can be placed between the battery and the appliances to measure the wattage draw and allow the user to change his habits (equipment used at a certain period). This is useful as any battery can only supply a given amount of amps. Another method to allow the latter is to just use an electricity meter (like the P3 International Kill A Watt ) and calculate your average draw manually.
 DOD means depth of discharge, so how much the battery is allowed to be discharged
 DOC means depth of charge, so how much the battery is allowed to be charged
 SOC means State of Charge, or hence the capacity rated in percent.
