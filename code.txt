@@ -29,7 +29,7 @@ Stop charging:
 When DoC SOC level of battery type selected has been reached
 
 Notes:
-Input voltage to the arduino is 230v (coming from the mains electrical grid).
+Input voltage to the arduino is 230v AC at 50Hz (coming from the mains electrical grid).
 DOD means depth of discharge, so how much the battery is allowed to be discharged
 DOC means depth of charge, so how much the battery is allowed to be charged
 SOC means State of Charge, or hence the capacity rated in percent.
