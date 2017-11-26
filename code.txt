@@ -18,7 +18,7 @@ between 00 hours to 06 hours: off-peak hours
 between 06 hours to 22 hours: peak hours
 between 22 hours to 00 hours: off-peak hours
 
-Program calculations:
+Program calculations: OUTPUT voltage/amps
 Entered battery type charge voltage X number of cells = ? volts to supply to battery
 Entered battery type charge C-rate X entered Ah-rating for battery = ? amps to supply to battery
 
@@ -29,6 +29,7 @@ Stop charging:
 When DoC SOC level of battery type selected has been reached
 
 Notes:
+Input voltage to the arduino is 230v (coming from the mains electrical grid).
 DOD means depth of discharge, so how much the battery is allowed to be discharged
 DOC means depth of charge, so how much the battery is allowed to be charged
 SOC means State of Charge, or hence the capacity rated in percent.
