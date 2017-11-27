@@ -13,20 +13,9 @@ FLA/VRLA  6                 30% SOC   95% SOC     0,25C           2,35-2,45V per
 NiFe      10                15% SOC   95% SOC     0,14C           1,7v per cell
 NiMH      10                20% SOC   95% SOC     0,5C            1,4-1,6v per cell
 
-Peak/off peak hours table:
-between 00 hours to 06 hours: off-peak hours
-between 06 hours to 22 hours: peak hours
-between 22 hours to 00 hours: off-peak hours
-
 Program calculations: OUTPUT voltage/amps
 Entered battery type charge voltage X number of cells = ? volts to supply to battery
 Entered battery type charge C-rate X entered Ah-rating for battery = ? amps to supply to battery
-
-Start charging:
-When DoD SOC level of battery type selected has been reached AND off-peak hours are in effect.
-
-Stop charging:
-When DoC SOC level of battery type selected has been reached
 
 Notes:
 Input voltage to the arduino is 230v AC at 50Hz (coming from the mains electrical grid).
