@@ -1,4 +1,9 @@
-Please enter your type of battery and Ah-rating: 
+Please select the input power:
+For 120V AC, 60Hz, type 1
+For 230v AC, 50Hz, type 2
+For 220v AC, 50Hz, type 3
+
+Please select your type of battery and Ah-rating: 
 For lead-acid (FLA/VRLA) batteries, type 1
 For nickel-iron (NiFe) batteries, type 2
 For nickel-metal hydride (NiMH) batteries, type 3
@@ -18,7 +23,6 @@ Entered battery type charge voltage X number of cells = ? volts to supply to bat
 Entered battery type charge C-rate X entered Ah-rating for battery = ? amps to supply to battery
 
 Notes:
-Input voltage to the arduino is 230v AC at 50Hz (coming from the mains electrical grid).
 The 12v battery can be used to power a wide range of domestic equipment.
 An in-home energy use display can be placed between the battery and the appliances to measure the wattage draw and allow the user to change his habits (equipment used at a certain period). This is useful as any battery can only supply a given amount of amps. Another method to allow the latter is to just use an electricity meter (like the P3 International Kill A Watt ) and calculate your average draw manually.
 DOD means depth of discharge, so how much the battery is allowed to be discharged
