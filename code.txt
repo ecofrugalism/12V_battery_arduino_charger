@@ -1,7 +1,7 @@
 Please select the input power:
 For 120V AC, 60Hz, type 1
-For 230v AC, 50Hz, type 2
-For 220v AC, 50Hz, type 3
+For 230V AC, 50Hz, type 2
+For 220V AC, 50Hz, type 3
 
 Please select your type of battery and Ah-rating: 
 For lead-acid (FLA/VRLA) batteries, type 1
@@ -15,8 +15,8 @@ Information tables for program:
 
 Type      Number of cells   DoD       DoC         Charge C-rate   Charge voltage		
 FLA/VRLA  6                 30% SOC   95% SOC     0,25C           2,35-2,45V per cell
-NiFe      10                15% SOC   95% SOC     0,14C           1,7v per cell
-NiMH      10                20% SOC   95% SOC     0,5C            1,4-1,6v per cell
+NiFe      10                15% SOC   95% SOC     0,14C           1,7V per cell
+NiMH      10                20% SOC   95% SOC     0,5C            1,4-1,6V per cell
 
 Program calculations: OUTPUT voltage/amps
 Entered battery type charge voltage X number of cells = ? volts to supply to battery
