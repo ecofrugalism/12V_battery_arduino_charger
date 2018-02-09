@@ -22,9 +22,16 @@ Program calculations: OUTPUT voltage/amps
 Entered battery type charge voltage X number of cells = ? volts to supply to battery
 Entered battery type charge C-rate X entered Ah-rating for battery = ? amps to supply to battery
 
+Execute:
+Charge when SOC level is below 95%, at the voltage and amps calculated for the specified battery type.
+Stop charging when SOC level is 95% or higher.
+
 Notes:
 The 12v battery can be used to power a wide range of domestic equipment.
-An in-home energy use display can be placed between the battery and the appliances to measure the wattage draw and allow the user to change his habits (equipment used at a certain period). This is useful as any battery can only supply a given amount of amps. Another method to allow the latter is to just use an electricity meter (like the P3 International Kill A Watt ) and calculate your average draw manually.
+An in-home energy use display can be placed between the battery and the appliances to measure the wattage draw and allow the
+user to change his habits (equipment used at a certain period). This is useful as any battery can only supply a given amount of
+amps. Another method to allow the latter is to just use an electricity meter (like the P3 International Kill A Watt ) and 
+calculate your average draw manually.
 DOD means depth of discharge, so how much the battery is allowed to be discharged
 DOC means depth of charge, so how much the battery is allowed to be charged
 SOC means State of Charge, or hence the capacity rated in percent.
@@ -35,9 +42,12 @@ Maximum discharge C-rate is not needed for the charger, so was dropped.
 12V FLA or VRLA batteries contain 6 cells with a nominal voltage of 2 volt = 12V
 12V NiFe batteries contain 10 cells with a nominal voltage of 1,2 volt.
 12V NiMH batteries contain 10 cells with a nominal voltage of 1,2 volt.
-Temperature is also very important for charging; if the battery becomes too hot damage could occur and efficiency of the charging drops. Also, with some battery types (such as NiMh), there's a risk of fire. As such, the charging c-rate for the NiMh batteries has been set lower (0,5C) than what it is actually capable of accepting (1C)
+Temperature is also very important for charging; if the battery becomes too hot damage could occur and efficiency of the
+charging drops. Also, with some battery types (such as NiMh), there's a risk of fire. As such, the charging c-rate for the NiMh
+batteries has been set lower (0,5C) than what it is actually capable of accepting (1C)
 The arduino needs to be connected to a 3x3 matrix keypad and a 32x2 LCD panel
-Only 3 types of batteries that are known to have long shelf lives and/or good recycling charisteristics were taken into the recharger code.
+Only 3 types of batteries that are known to have long shelf lives and/or good recycling charisteristics were taken into the
+recharger code.
 
 References:
 http://batteryuniversity.com/learn/article/charging_the_lead_acid_battery
